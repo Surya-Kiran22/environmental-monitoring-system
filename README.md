@@ -268,3 +268,4 @@ render.yaml
 - **Screening benchmarks and site baselines are labelled** and cannot trigger *Critical* on their own.
 - **Graceful degradation** — no LLM key, no internet weather, or no PostgreSQL: the system still runs and says which fallback it used.
 "# environmental-monitoring-system" 
+"# environmental-monitoring-system" 

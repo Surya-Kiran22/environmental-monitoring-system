@@ -1,0 +1,536 @@
+{
+ "_note": "Sample configured knowledge base for the demo. Values transcribed from public Indian notifications; verify against the official gazette before any operational or regulatory use. Edit this file or use the /api/standards endpoints to configure other jurisdictions.",
+ "standards": [
+  {
+   "id": "IN-NAAQS-PM25-24H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "Central Pollution Control Board (CPCB), India",
+   "jurisdiction": "IN",
+   "parameter": "pm2_5",
+   "limit_type": "max",
+   "limit": 60,
+   "averaging_period": "24h",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 4 - PM2.5",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-PM25-ANN",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "pm2_5",
+   "limit_type": "max",
+   "limit": 40,
+   "averaging_period": "annual",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 4 - PM2.5",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-PM10-24H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "pm10",
+   "limit_type": "max",
+   "limit": 100,
+   "averaging_period": "24h",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 3 - PM10",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-PM10-ANN",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "pm10",
+   "limit_type": "max",
+   "limit": 60,
+   "averaging_period": "annual",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 3 - PM10",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-NO2-24H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "no2",
+   "limit_type": "max",
+   "limit": 80,
+   "averaging_period": "24h",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 2 - NO2",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-NO2-ANN",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "no2",
+   "limit_type": "max",
+   "limit": 40,
+   "averaging_period": "annual",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 2 - NO2",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-SO2-24H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "so2",
+   "limit_type": "max",
+   "limit": 80,
+   "averaging_period": "24h",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 1 - SO2",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-SO2-ANN",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "so2",
+   "limit_type": "max",
+   "limit": 50,
+   "averaging_period": "annual",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 1 - SO2",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-CO-8H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "co",
+   "limit_type": "max",
+   "limit": 2,
+   "averaging_period": "8h",
+   "unit": "mg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 7 - CO",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-CO-1H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "co",
+   "limit_type": "max",
+   "limit": 4,
+   "averaging_period": "1h",
+   "unit": "mg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 7 - CO",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-O3-8H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "o3",
+   "limit_type": "max",
+   "limit": 100,
+   "averaging_period": "8h",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 5 - Ozone",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NAAQS-O3-1H",
+   "standard_name": "National Ambient Air Quality Standards (NAAQS) 2009",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "o3",
+   "limit_type": "max",
+   "limit": 180,
+   "averaging_period": "1h",
+   "unit": "µg/m³",
+   "zones": [
+    "industrial",
+    "residential",
+    "commercial",
+    "rural"
+   ],
+   "source_doc": "naaqs_2009.md",
+   "section": "Schedule, item 5 - Ozone",
+   "version": "Notification G.S.R. 826(E), November 2009",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-IND-DAY",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 75,
+   "averaging_period": "day",
+   "unit": "dB(A)",
+   "zones": [
+    "industrial"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category A - Industrial area)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-IND-NIGHT",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 70,
+   "averaging_period": "night",
+   "unit": "dB(A)",
+   "zones": [
+    "industrial"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category A - Industrial area)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-COM-DAY",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 65,
+   "averaging_period": "day",
+   "unit": "dB(A)",
+   "zones": [
+    "commercial"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category B - Commercial area)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-COM-NIGHT",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 55,
+   "averaging_period": "night",
+   "unit": "dB(A)",
+   "zones": [
+    "commercial"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category B - Commercial area)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-RES-DAY",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 55,
+   "averaging_period": "day",
+   "unit": "dB(A)",
+   "zones": [
+    "residential"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category C - Residential area)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-RES-NIGHT",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 45,
+   "averaging_period": "night",
+   "unit": "dB(A)",
+   "zones": [
+    "residential"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category C - Residential area)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-SIL-DAY",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 50,
+   "averaging_period": "day",
+   "unit": "dB(A)",
+   "zones": [
+    "silence"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category D - Silence zone)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-NOISE-SIL-NIGHT",
+   "standard_name": "Noise Pollution (Regulation and Control) Rules, 2000",
+   "issuer": "MoEF, India",
+   "jurisdiction": "IN",
+   "parameter": "noise_laeq",
+   "limit_type": "max",
+   "limit": 40,
+   "averaging_period": "night",
+   "unit": "dB(A)",
+   "zones": [
+    "silence"
+   ],
+   "source_doc": "noise_rules_2000.md",
+   "section": "Schedule - Ambient air quality standards in respect of noise (Category D - Silence zone)",
+   "version": "S.O. 123(E), 2000 (as amended)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-CPCB-DBU-C-PH",
+   "standard_name": "CPCB Primary Water Quality Criteria (Designated Best Use)",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "ph",
+   "limit_type": "range",
+   "min": 6.0,
+   "max": 9.0,
+   "averaging_period": "instantaneous",
+   "unit": "pH",
+   "water_classes": [
+    "C"
+   ],
+   "source_doc": "cpcb_designated_best_use.md",
+   "section": "Class C - Drinking water source after conventional treatment",
+   "version": "CPCB criteria (current listing)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-CPCB-DBU-C-DO",
+   "standard_name": "CPCB Primary Water Quality Criteria (Designated Best Use)",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "dissolved_oxygen",
+   "limit_type": "min",
+   "limit": 4.0,
+   "averaging_period": "instantaneous",
+   "unit": "mg/L",
+   "water_classes": [
+    "C"
+   ],
+   "source_doc": "cpcb_designated_best_use.md",
+   "section": "Class C - Drinking water source after conventional treatment",
+   "version": "CPCB criteria (current listing)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-CPCB-DBU-B-PH",
+   "standard_name": "CPCB Primary Water Quality Criteria (Designated Best Use)",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "ph",
+   "limit_type": "range",
+   "min": 6.5,
+   "max": 8.5,
+   "averaging_period": "instantaneous",
+   "unit": "pH",
+   "water_classes": [
+    "B"
+   ],
+   "source_doc": "cpcb_designated_best_use.md",
+   "section": "Class B - Outdoor bathing (organised)",
+   "version": "CPCB criteria (current listing)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-CPCB-DBU-B-DO",
+   "standard_name": "CPCB Primary Water Quality Criteria (Designated Best Use)",
+   "issuer": "CPCB, India",
+   "jurisdiction": "IN",
+   "parameter": "dissolved_oxygen",
+   "limit_type": "min",
+   "limit": 5.0,
+   "averaging_period": "instantaneous",
+   "unit": "mg/L",
+   "water_classes": [
+    "B"
+   ],
+   "source_doc": "cpcb_designated_best_use.md",
+   "section": "Class B - Outdoor bathing (organised)",
+   "version": "CPCB criteria (current listing)",
+   "basis": "regulatory"
+  },
+  {
+   "id": "IN-IS10500-TURB-SCREEN",
+   "standard_name": "IS 10500:2012 Drinking Water Specification (screening benchmark)",
+   "issuer": "Bureau of Indian Standards",
+   "jurisdiction": "IN",
+   "parameter": "turbidity",
+   "limit_type": "max",
+   "limit": 5,
+   "averaging_period": "instantaneous",
+   "unit": "NTU",
+   "water_classes": [
+    "B",
+    "C"
+   ],
+   "source_doc": "is_10500_2012.md",
+   "section": "Table 1 - Turbidity, permissible limit",
+   "version": "IS 10500:2012 (2nd revision)",
+   "basis": "screening_benchmark",
+   "note": "Drinking-water limit configured as a screening benchmark for source water; not a legal limit for river water."
+  },
+  {
+   "id": "IN-IS10500-TDS-SCREEN",
+   "standard_name": "IS 10500:2012 Drinking Water Specification (screening benchmark)",
+   "issuer": "Bureau of Indian Standards",
+   "jurisdiction": "IN",
+   "parameter": "tds",
+   "limit_type": "max",
+   "limit": 2000,
+   "averaging_period": "instantaneous",
+   "unit": "mg/L",
+   "water_classes": [
+    "B",
+    "C"
+   ],
+   "source_doc": "is_10500_2012.md",
+   "section": "Table 1 - Total dissolved solids, permissible limit",
+   "version": "IS 10500:2012 (2nd revision)",
+   "basis": "screening_benchmark",
+   "note": "Screening benchmark only."
+  },
+  {
+   "id": "SITE-WQ-COND-BASELINE",
+   "standard_name": "Site operating baseline - conductivity",
+   "issuer": "Network operator configuration",
+   "jurisdiction": "IN",
+   "parameter": "conductivity",
+   "limit_type": "range",
+   "min": 150,
+   "max": 900,
+   "averaging_period": "instantaneous",
+   "unit": "µS/cm",
+   "water_classes": [
+    "B",
+    "C"
+   ],
+   "source_doc": "site_baseline_config.md",
+   "section": "Conductivity operating band",
+   "version": "v1.2, 2026",
+   "basis": "site_baseline",
+   "note": "Operational baseline, not a regulatory limit."
+  }
+ ]
+}

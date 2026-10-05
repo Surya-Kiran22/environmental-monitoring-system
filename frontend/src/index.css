@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-[#f3f4f6] text-ink font-sans antialiased; }
+:focus-visible { outline: 2px solid #1f5eff; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+.btn { @apply inline-flex items-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-[2px] border transition-colors disabled:opacity-50 disabled:cursor-not-allowed; }
+.btn-go { @apply btn bg-go border-go text-white hover:bg-[#186a2c]; }
+.btn-risk { @apply btn bg-risk border-risk text-white; }
+.btn-plain { @apply btn bg-white border-line text-ink hover:bg-panel; }
+.btn-sm { @apply px-2.5 py-1.5 text-[12px]; }
+.field { @apply border border-line bg-white px-2.5 py-2 text-[13px] rounded-[2px] focus:border-brand outline-none; }
+.label { @apply text-[12.5px] font-bold tracking-wide text-ink; }
+.kv td { @apply border-b border-line px-3 py-[11px] align-top; }
+.kv tr:last-child td { @apply border-b-0; }
+.kv td:first-child { @apply w-[38%] text-[13px] font-medium border-r border-line; }
+.kv td:last-child { @apply font-mono text-[12.5px]; }
+.grid-table { @apply w-full text-[12.5px] border border-line bg-white; }
+.grid-table th { @apply text-left font-semibold bg-panel border-b border-line px-3 py-2 text-[12px]; }
+.grid-table td { @apply border-b border-line px-3 py-2 align-top; }
+.grid-table tr.clickable:hover td { @apply bg-[#f4f7ff] cursor-pointer; }
+.leaflet-container { font-family: "Noto Sans", sans-serif; }

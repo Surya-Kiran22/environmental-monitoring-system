@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: env-intelligence-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: CORS_ORIGINS
+        value: "*"            # set to your Vercel URL in production
+      - key: LLM_PROVIDER
+        value: none           # anthropic | openai | gemini | none
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: env-intelligence-db
+          property: connectionString
+databases:
+  - name: env-intelligence-db
+    plan: free

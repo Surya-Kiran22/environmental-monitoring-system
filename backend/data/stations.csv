@@ -1,0 +1,9 @@
+station_id,name,monitoring_type,location,latitude,longitude,zone_category,water_class,parameters
+ENV-ST-001,Benz Circle AQ Station,air_quality,"Benz Circle, Vijayawada",16.499,80.656,commercial,,pm2_5;pm10;no2;so2;co;o3
+ENV-ST-002,Auto Nagar AQ Station,air_quality,"Auto Nagar, Vijayawada",16.4955,80.6745,industrial,,pm2_5;pm10;no2;so2;co;o3
+ENV-ST-003,Gunadala AQ Station,air_quality,"Gunadala, Vijayawada",16.5195,80.653,residential,,pm2_5;pm10;no2;so2;co;o3
+ENV-ST-004,Industrial Zone A AQ Station,air_quality,"Industrial Zone A, Kondapalli",16.618,80.542,industrial,,pm2_5;pm10;no2;so2;co;o3
+ENV-WQ-001,Krishna River - Prakasam Barrage,water_quality,"Prakasam Barrage, Vijayawada",16.5065,80.604,water_body,C,ph;dissolved_oxygen;turbidity;conductivity;tds;water_temperature
+ENV-WQ-002,Budameru Canal Outfall,water_quality,"Budameru Canal, Vijayawada",16.531,80.629,water_body,C,ph;dissolved_oxygen;turbidity;conductivity;tds;water_temperature
+ENV-NS-001,Governorpet Noise Station,noise,"Governorpet, Vijayawada",16.5135,80.6295,commercial,,noise_laeq
+ENV-NS-002,Patamata Noise Station,noise,"Patamata, Vijayawada",16.4985,80.6655,residential,,noise_laeq

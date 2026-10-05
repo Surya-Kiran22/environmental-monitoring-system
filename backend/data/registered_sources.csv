@@ -1,0 +1,7 @@
+source_id,name,category,latitude,longitude
+SRC-101,Registered Unit R-101 (cement grinding),industrial,16.6265,80.5335
+SRC-102,Registered Unit R-102 (stone crushing),industrial,16.609,80.556
+SRC-103,Registered Unit R-103 (foundry),industrial,16.4925,80.681
+SRC-104,Bus depot & fuel station,transport,16.504,80.65
+SRC-105,Municipal STP outfall,wastewater,16.512,80.6
+SRC-106,Function hall cluster,commercial,16.4995,80.669

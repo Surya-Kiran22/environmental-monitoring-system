@@ -1,0 +1,110 @@
+{
+  "algorithm": "IsolationForest(n_estimators=200, contamination=0.03) + robust z-score + Theil-Sen trend",
+  "split": "train: first 20 days, test: last 10 days (chronological)",
+  "domains": {
+    "air": {
+      "isolation_forest": {
+        "precision": 0.796,
+        "recall": 0.932,
+        "f1": 0.859,
+        "tp": 82,
+        "fp": 21,
+        "fn": 6
+      },
+      "robust_zscore_baseline": {
+        "precision": 0.764,
+        "recall": 0.92,
+        "f1": 0.835,
+        "tp": 81,
+        "fp": 25,
+        "fn": 7
+      },
+      "test_rows": 964,
+      "labelled_events": 88,
+      "train_rows": 1916,
+      "features": [
+        "z_pm2_5",
+        "d_pm2_5",
+        "z_pm10",
+        "d_pm10",
+        "z_no2",
+        "d_no2",
+        "z_so2",
+        "d_so2",
+        "z_co",
+        "d_co",
+        "z_o3",
+        "d_o3",
+        "hour_sin",
+        "hour_cos",
+        "wind_speed",
+        "humidity"
+      ]
+    },
+    "water": {
+      "isolation_forest": {
+        "precision": 0.545,
+        "recall": 1.0,
+        "f1": 0.706,
+        "tp": 6,
+        "fp": 5,
+        "fn": 0
+      },
+      "robust_zscore_baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0
+      },
+      "test_rows": 473,
+      "labelled_events": 6,
+      "train_rows": 958,
+      "features": [
+        "z_ph",
+        "d_ph",
+        "z_dissolved_oxygen",
+        "d_dissolved_oxygen",
+        "z_turbidity",
+        "d_turbidity",
+        "z_conductivity",
+        "d_conductivity",
+        "z_tds",
+        "d_tds",
+        "z_water_temperature",
+        "d_water_temperature",
+        "hour_sin",
+        "hour_cos"
+      ]
+    },
+    "noise": {
+      "isolation_forest": {
+        "precision": 0.424,
+        "recall": 0.583,
+        "f1": 0.491,
+        "tp": 14,
+        "fp": 19,
+        "fn": 10
+      },
+      "robust_zscore_baseline": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 24
+      },
+      "test_rows": 482,
+      "labelled_events": 24,
+      "train_rows": 958,
+      "features": [
+        "z_noise_laeq",
+        "d_noise_laeq",
+        "hour_sin",
+        "hour_cos",
+        "is_night"
+      ]
+    }
+  }
+}

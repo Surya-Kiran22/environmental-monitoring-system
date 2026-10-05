@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 640" font-family="Segoe UI, Noto Sans, sans-serif"><rect width="1180" height="640" fill="#fff"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5d7189"/></marker></defs>
+<line x1="200" y1="70" x2="240" y2="70" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="430" y1="70" x2="470" y2="38" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="430" y1="70" x2="470" y2="93" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="430" y1="70" x2="470" y2="148" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="640" y1="38" x2="680" y2="70" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="640" y1="93" x2="680" y2="70" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="640" y1="148" x2="680" y2="70" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="870" y1="70" x2="910" y2="70" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1030" y1="100" x2="1030" y2="190" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="910" y1="210" x2="850" y2="210" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="850" y1="235" x2="910" y2="235" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="620" y1="220" x2="560" y2="220" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="330" y1="220" x2="270" y2="220" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="150" y1="250" x2="150" y2="330" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="445" y1="330" x2="680" y2="252" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="735" y1="330" x2="735" y2="250" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="735" y1="330" x2="1000" y2="250" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1030" y1="330" x2="1030" y2="250" stroke="#5d7189" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="30" y="40" width="170" height="60" fill="#eef2f7" stroke="#c9d1db" rx="2"/>
+<text x="115.0" y="67.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1b2430">Environmental sensors</text>
+<text x="115.0" y="84.0" text-anchor="middle" font-size="10.5" fill="#5d7189">CSV · Excel · REST · IoT sim</text>
+<rect x="240" y="40" width="190" height="60" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="335.0" y="67.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1 · Intake &amp; Validation</text>
+<text x="335.0" y="84.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">units · missing · spikes · stale</text>
+<rect x="470" y="15" width="170" height="46" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="555.0" y="35.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2 · Air Quality Agent</text>
+<text x="555.0" y="52.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">NAAQS comparisons</text>
+<rect x="470" y="70" width="170" height="46" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="555.0" y="90.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3 · Water Quality Agent</text>
+<text x="555.0" y="107.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">ranges · change detection</text>
+<rect x="470" y="125" width="170" height="46" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="555.0" y="145.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">4 · Noise Agent</text>
+<text x="555.0" y="162.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">day/night Leq</text>
+<rect x="680" y="40" width="190" height="60" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="775.0" y="67.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">5 · Weather &amp; Context</text>
+<text x="775.0" y="84.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">Open-Meteo API</text>
+<rect x="910" y="40" width="240" height="60" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="1030.0" y="67.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">6 · Anomaly &amp; Trend</text>
+<text x="1030.0" y="84.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">Isolation Forest · z-score · Theil–Sen</text>
+<rect x="910" y="190" width="240" height="60" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="1030.0" y="217.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">7 · Alert &amp; Investigation</text>
+<text x="1030.0" y="234.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">risk · sources · ε-greedy bandit</text>
+<rect x="620" y="190" width="230" height="60" fill="#1f5eff" stroke="#c9d1db" rx="2"/>
+<text x="735.0" y="217.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">8 · Standards Reviewer</text>
+<text x="735.0" y="234.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">units · periods · claims · recompute</text>
+<rect x="330" y="190" width="230" height="60" fill="#1e7e34" stroke="#c9d1db" rx="2"/>
+<text x="445.0" y="217.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Human review gate</text>
+<text x="445.0" y="234.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">persist alerts / incidents</text>
+<rect x="30" y="190" width="240" height="60" fill="#1e7e34" stroke="#c9d1db" rx="2"/>
+<text x="150.0" y="217.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Investigation workflow</text>
+<text x="150.0" y="234.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">officer actions · lab results</text>
+<rect x="30" y="330" width="240" height="60" fill="#1e7e34" stroke="#c9d1db" rx="2"/>
+<text x="150.0" y="357.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Reporting</text>
+<text x="150.0" y="374.0" text-anchor="middle" font-size="10.5" fill="#dfe8ff">structured report → PDF</text>
+<rect x="330" y="330" width="230" height="60" fill="#eef2f7" stroke="#c9d1db" rx="2"/>
+<text x="445.0" y="357.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1b2430">Standards KB + RAG</text>
+<text x="445.0" y="374.0" text-anchor="middle" font-size="10.5" fill="#5d7189">structured limits + docs index</text>
+<rect x="620" y="330" width="230" height="60" fill="#eef2f7" stroke="#c9d1db" rx="2"/>
+<text x="735.0" y="357.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1b2430">Cross-station / GIS</text>
+<text x="735.0" y="374.0" text-anchor="middle" font-size="10.5" fill="#5d7189">haversine · spatial pattern</text>
+<rect x="910" y="330" width="240" height="60" fill="#eef2f7" stroke="#c9d1db" rx="2"/>
+<text x="1030.0" y="357.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1b2430">Forecasting</text>
+<text x="1030.0" y="374.0" text-anchor="middle" font-size="10.5" fill="#5d7189">HistGradientBoosting PM2.5</text>
+<rect x="330" y="450" width="520" height="60" fill="#fff6dc" stroke="#c9d1db" rx="2"/>
+<text x="590.0" y="477.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1b2430">Workflow state — LangGraph StateGraph + PostgreSQL / SQLite</text>
+<text x="590.0" y="494.0" text-anchor="middle" font-size="10.5" fill="#5d7189">pipeline_runs · alerts · incidents · actions · reports</text>
+<rect x="330" y="560" width="520" height="50" fill="#eef2f7" stroke="#c9d1db" rx="2"/>
+<text x="590.0" y="582.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1b2430">React + TypeScript dashboard (Vercel)  ⇄  FastAPI (Render)</text>
+<text x="590.0" y="599.0" text-anchor="middle" font-size="10.5" fill="#5d7189">15 pages · agent execution visibility</text>
+<text x="855" y="183" font-size="10" fill="#c0392b">reassess (≤1)</text>
+<text x="30" y="630" font-size="11" fill="#5d7189">Agents share one typed state; every node appends to trace/events. Limits come only from the KB; the LLM (optional) only phrases interpretations.</text></svg>
