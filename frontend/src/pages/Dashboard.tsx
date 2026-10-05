@@ -38,9 +38,7 @@ export default function Dashboard() {
         <div className="flex flex-wrap items-center gap-3">
           <button className="btn-go" onClick={run} disabled={running}>{running ? "Running 8 agents…" : "Run Environmental Analysis"}</button>
           <span className="btn-go pointer-events-none">Status: {data?.last_run ? (STATUS_TEXT[lifecycle] || lifecycle) : "IDLE"}</span>
-          <span className="inline-flex items-center gap-2 px-4 py-2.5 text-[13px] border border-line bg-white text-muted rounded-[2px]">
-            Last Sync: <span className="font-mono text-ink text-[12.5px]">{fmtTime(data?.last_run?.finished_at)}</span>
-          </span>
+
           <span className="flex-1" />
           <span className={`${score !== undefined && score >= 50 ? "btn-risk" : "btn-go"} pointer-events-none`}>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden><path d="M12 3 2 21h20L12 3z" /><path d="M12 10v5M12 18h.01" /></svg>
