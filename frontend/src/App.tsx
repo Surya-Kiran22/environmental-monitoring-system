@@ -39,7 +39,7 @@ export default function App() {
             </NavLink>
           ))}
         </nav>
-        <div className="px-6 py-3 text-[11px] text-muted border-t border-line">Decision-support only · no legal determinations</div>
+        
       </aside>
       {open && <div className="fixed inset-0 bg-black/20 z-[1100] lg:hidden" onClick={() => setOpen(false)} />}
       <main className="flex-1 lg:ml-[268px] min-w-0">
